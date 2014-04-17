@@ -8,7 +8,7 @@ gitLab 進行手順
 	
 ③　"~/.ssh/id_rsa.pub"に鍵が生成されるので、公開鍵の中身をまるっとすべてSSH Keysに登録
 
-④　~/.ssh/config"に次の設定を書きたしておく。xxx.xxx.xxx.xxxのところにはGitLabサーバーのIPアド　　レス入れてね。DNSで解決できるならホスト名でも。
+④　~/.ssh/config"に次の設定を書きたしておく。xxx.xxx.xxx.xxxのところにはGitLabサーバーのIPアドレス入れてね。DNSで解決できるならホスト名でも。
 
 
     Host gitlab-serverHostName xxx.xxx.xxx.xxxIdentifyFile ~/.ssh/id_rsa
