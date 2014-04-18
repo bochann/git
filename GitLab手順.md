@@ -6,7 +6,7 @@ gitLab 進行手順
 
 	＄ssh-keygen -t rsa
 	
-③　"~/.ssh/id_rsa.pub"に鍵が生成されるので、公開鍵の中身をまるっとすべてSSH Keysに登録
+③　"~/.ssh/id_rsa.pub"に鍵が生成されるので、公開鍵の中身をまるごとすべてSSH Keysに登録
 
 ④　~/.ssh/config"に次の設定を書きたしておく。xxx.xxx.xxx.xxxのところにはGitLabサーバーのIPアドレス入れてね。DNSで解決できるならホスト名でも。
 
